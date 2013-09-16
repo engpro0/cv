@@ -1,0 +1,26 @@
+
+body
+{
+   background-image: url('img/blackboard.jpeg');
+   color:#f5f5dc;
+   text-align: center;
+   font-family: chalkboard;
+   font-size: 1.5em;
+}
+p:hover{
+	color:aqua;
+}
+img{
+	height:100px;
+	width:80px;
+	transition: all 1s ease-in;
+	
+}
+img:hover{
+	height:500px;
+	width:400px;
+	transition: all 3s ease-out;
+}
+
+
+
